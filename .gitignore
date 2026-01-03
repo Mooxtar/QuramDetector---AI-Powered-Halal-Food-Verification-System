@@ -1,0 +1,57 @@
+# Environment variables
+.env
+env
+*.env
+service_account.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific - user uploaded files
+temp/
+uploads/
+output.jpg
+
+# Augmented/generated images (if these are auto-generated, exclude them)
+# augmented_product_logos/
+
+# Keep original product logos (comment out the line above if you want to exclude augmented_product_logos)
+
+# Model files (large files - consider using Git LFS or hosting elsewhere)
+*.pt
+logo_recognizer/best.pt
+yolov8n.pt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
