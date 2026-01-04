@@ -13,29 +13,31 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
 - [Technical Architecture](#technical-architecture)
 - [Data Science Components](#data-science-components)
-  - [Ingredient Analysis System (`check.py`)](#1-ingredient-analysis-system-checkpy)
-  - [Image Processing Pipeline (`routes.py`)](#2-image-processing-pipeline-routespy)
-  - [Dynamic Category Classification](#3-dynamic-category-classification)
-  - [Web Scraping & Data Collection (`products_scraping.ipynb`)](#4-web-scraping--data-collection-products_scrapingipynb)
-  - [Data Augmentation (`augmenting.ipynb`)](#5-data-augmentation-augmentingipynb)
-  - [Logo Detection Model (`comp_vision_model.ipynb`)](#6-logo-detection-model-comp_vision_modelipynb)
+  - [1. Ingredient Analysis System (check.py)](#1-ingredient-analysis-system-checkpy)
+  - [2. Image Processing Pipeline (routes.py)](#2-image-processing-pipeline-routespy)
+  - [3. Dynamic Category Classification](#3-dynamic-category-classification)
+  - [4. Web Scraping & Data Collection (products_scraping.ipynb)](#4-web-scraping--data-collection-products_scrapingipynb)
+  - [5. Data Augmentation (augmenting.ipynb)](#5-data-augmentation-augmentingipynb)
+  - [6. Logo Detection Model (comp_vision_model.ipynb)](#6-logo-detection-model-comp_vision_modelipynb)
 - [Unique Technical Innovations](#unique-technical-innovations)
 - [Skills Demonstrated](#skills-demonstrated)
-- [Project Structure](#project-structure)
-- [Setup Instructions](#setup-instructions)
 - [API Endpoints](#api-endpoints)
+- [Database Schema](#database-schema)
+- [Learning Outcomes](#learning-outcomes)
 - [App Screenshots](#app-screenshots)
+- [License](#-license)
+
 
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 **QuramDetector** is a comprehensive Halal food verification system that combines multiple AI technologies to help users make informed dietary choices. The application allows users to scan product packaging, automatically extracts ingredient lists using OCR, analyzes them for Halal compliance, and provides alternative product recommendations.
 
@@ -56,7 +58,7 @@ A multi-modal AI system that:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - 📸 **Image-to-Text Extraction**: OCR using Google Gemini 1.5 Pro Vision API
 - 🔍 **Intelligent Ingredient Analysis**: Multi-language fuzzy matching against 500+ Haram/Suspected ingredients
@@ -69,7 +71,7 @@ A multi-modal AI system that:
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 ```
 ┌─────────────────┐
@@ -105,7 +107,7 @@ A multi-modal AI system that:
 
 ---
 
-## 🔬 Data Science Components
+## Data Science Components
 
 ### 1. Ingredient Analysis System (`check.py`)
 
@@ -690,7 +692,7 @@ for result in results:
 
 ---
 
-## 🚀 Unique Technical Innovations
+## Unique Technical Innovations
 
 ### 1. **Multi-Modal AI Pipeline**
 Combines:
@@ -720,7 +722,7 @@ Combines:
 
 ---
 
-## 💼 Skills Demonstrated
+## Skills Demonstrated
 
 ### **Machine Learning & Deep Learning**
 - ✅ Custom YOLOv8 model training and deployment
@@ -761,7 +763,7 @@ Combines:
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /auth/register` - User registration
@@ -788,7 +790,7 @@ Combines:
 
 ---
 
-## 📊 Database Schema
+## Database Schema
 
 ### Core Tables
 - **User**: User accounts and authentication
@@ -806,7 +808,7 @@ Combines:
 
 ---
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates proficiency in:
 
