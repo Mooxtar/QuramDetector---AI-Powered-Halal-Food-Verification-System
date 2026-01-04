@@ -30,6 +30,8 @@
 - [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
 - [API Endpoints](#api-endpoints)
+- [App Screenshots](#app-screenshots)
+
 
 ---
 
@@ -813,6 +815,39 @@ This project demonstrates proficiency in:
 3. **Production Engineering**: Scalable architecture, error handling, cloud integration
 4. **Data Science Best Practices**: ETL pipelines, data augmentation, model evaluation
 5. **Real-World Problem Solving**: Addressing a genuine need in the Muslim community
+
+---
+
+## App Screenshots
+
+<p align="center">
+  <img src="app_images/IMG_0355 2.jpg" width="240" />
+  <img src="app_images/IMG_0356 2.jpg" width="240" />
+  <img src="app_images/IMG_0357 2.jpg" width="240" />
+</p>
+
+<p align="center">
+  <img src="app_images/IMG_0358 2.jpg" width="240" />
+  <img src="app_images/IMG_0360 2.jpg" width="240" />
+  <img src="app_images/IMG_0363 2.jpg" width="240" />
+</p>
+
+<p align="center">
+  <img src="app_images/IMG_0364 2.jpg" width="240" />
+  <img src="app_images/IMG_0365 2.jpg" width="240" />
+  <img src="app_images/IMG_0366 2.jpg" width="240" />
+</p>
+
+<p align="center">
+  <img src="app_images/IMG_0367 2.jpg" width="240" />
+  <img src="app_images/IMG_0368 2.jpg" width="240" />
+  <img src="app_images/IMG_0370 2.jpg" width="240" />
+</p>
+
+<p align="center">
+  <img src="app_images/IMG_0374.PNG" width="240" />
+  <img src="app_images/IMG_0375.PNG" width="240" />
+</p>
 
 ---
 
